@@ -21,5 +21,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-json:3.0.1'
 	implementation 'org.jetbrains:annotations:23.0.0'
 	implementation 'cn.hutool:hutool-captcha:5.8.11'
+	implementation 'com.baomidou:mybatis-plus:3.5.2'
+	implementation 'org.projectlombok:lombok:1.18.24'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test:3.0.1'
 }

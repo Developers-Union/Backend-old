@@ -21,6 +21,7 @@ public class HashUtil {
         String encodeStr = Base64.encodeBase64String(hash);
         return byte2Hex(hash);
     }
+
     private static @NotNull String byte2Hex(byte @NotNull [] bytes) {
         StringBuilder stringBuffer = new StringBuilder();
         String temp = null;

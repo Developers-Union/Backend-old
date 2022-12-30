@@ -1,11 +1,11 @@
 package io.github.xingkongqwq.dub.router.api.v1;
 
+import cn.hutool.captcha.CaptchaUtil;
 import cn.hutool.captcha.ShearCaptcha;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.hutool.captcha.CaptchaUtil;
 import java.util.HashMap;
 import java.util.Map;
 
