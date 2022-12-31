@@ -5,6 +5,9 @@ import io.github.xingkongqwq.dub.pojo.Post;
 
 import java.util.List;
 
+/**
+ * @author mdr
+ */
 public interface PostService {
     Post getById(int id);
 

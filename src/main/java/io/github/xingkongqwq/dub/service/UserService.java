@@ -3,6 +3,9 @@ package io.github.xingkongqwq.dub.service;
 
 import io.github.xingkongqwq.dub.pojo.User;
 
+/**
+ * @author mdr
+ */
 public interface UserService {
     User login(String username, String password);
 

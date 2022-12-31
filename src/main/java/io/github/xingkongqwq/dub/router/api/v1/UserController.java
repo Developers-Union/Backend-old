@@ -16,5 +16,8 @@ public class UserController {
     public ResponseEntity<String> login(String username, String password) {
         return new ResponseEntity<>("err", HttpStatus.FORBIDDEN);
     }
-
+    @GetMapping("/register")
+    public ResponseEntity<String> reg(String username, String password) {
+        return new ResponseEntity<>("err", HttpStatus.FORBIDDEN);
+    }
 }
