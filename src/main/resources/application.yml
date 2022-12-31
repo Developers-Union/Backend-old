@@ -1,0 +1,6 @@
+spring:
+  redis:
+    host: 0.0.0.0 #Wait For Change
+    port: 6379
+    password:
+    database: 15
